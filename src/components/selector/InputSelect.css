@@ -1,0 +1,25 @@
+.input-parameters {
+  text-align: left;
+}
+.parameter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 600px;
+}
+.parameter-container > .country-input {
+  width: 250px;
+  margin-right: 32px;
+}
+.parameter-container > .year-input {
+  width: 100px;
+}
+@media screen and (max-width: 475px) {
+  .parameter-container > .year-input {
+    margin-top: 16px;
+  }
+}
+.parameter-container > .gas-input {
+  width: 550px;
+  margin-top: 16px;
+}

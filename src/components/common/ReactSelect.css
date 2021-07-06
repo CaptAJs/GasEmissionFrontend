@@ -1,0 +1,133 @@
+.chosen-container {
+  width: 100% !important;
+  border: none;
+  line-height: 20px;
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+}
+.react-custom-select {
+  max-width: 100%;
+  margin: auto;
+}
+.form-control {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+.form-control > .title {
+  margin: 0;
+  color: #484848;
+}
+.chosen-container .chosen-drop {
+  position: absolute;
+  top: 100%;
+  z-index: 2;
+  background: #fff;
+  width: 100% !important;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 8%);
+  border-radius: 3px;
+  padding-top: 1px;
+  display: block;
+}
+.chosen-container :focus-within {
+  outline: none;
+}
+.chosen-container .chosen-results {
+  color: #444;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 4px 4px 0;
+  padding: 0 0 0 4px;
+  max-height: 240px;
+}
+.react-custom-select .chosen-drop .chosen-results {
+  padding: 0;
+  margin: 0;
+}
+.chosen-drop > .chosen-results > .active-result {
+  list-style: none;
+}
+.react-custom-select .form-control {
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.react-custom-select .form-control .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: flex-start;
+}
+.react-custom-select .form-control .title .multi-selected {
+  padding: 4px;
+  background: #eafcff;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+.react-custom-select .form-control .title .multi-selected img {
+  margin-left: 4px;
+}
+.react-custom-select .form-control .title .single-selected {
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+  margin-top: 2px;
+}
+.react-custom-select .form-control .title .single-selected img {
+  margin-left: 4px;
+}
+.react-custom-select .form-control:hover,
+.react-custom-select .form-control.active {
+  border: 1px solid #1dc1f6;
+}
+.react-custom-select .form-control .icon {
+  float: right;
+}
+.react-custom-select .form-control .icon:before {
+  color: #8a8a8a;
+}
+.react-custom-select .form-control.disabled {
+  cursor: not-allowed;
+  background-color: #f8f8f8;
+}
+.react-custom-select .form-control.disabled:hover,
+.react-custom-select .form-control.disabled.active {
+  border: 1px solid #ddd;
+}
+.react-custom-select .chosen-drop .chosen-results {
+  padding: 0;
+  margin: 0;
+}
+.react-custom-select .chosen-drop .chosen-results .active-result {
+  cursor: pointer;
+  padding: 7px;
+}
+.react-custom-select .chosen-drop .chosen-results .active-result :hover {
+  background-color: #eafcff !important;
+  color: #008bdc !important;
+}
+.react-custom-select .chosen-drop .chosen-results :hover {
+  background-color: #eafcff !important;
+  color: #008bdc !important;
+}
+.react-custom-select .chosen-drop .chosen-results .disabled {
+  background: #fff;
+  color: #ccc;
+  cursor: not-allowed;
+}

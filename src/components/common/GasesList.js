@@ -1,0 +1,15 @@
+export const Gases = {
+  co2: "carbon_dioxide_co2_emissions_without_land_use_land_use_change_and_forestry_lulucf_in_kilotonne_co2_equivalent",
+  ghgs_indirect:
+    "greenhouse_gas_ghgs_emissions_including_indirect_co2_without_lulucf_in_kilotonne_co2_equivalent",
+  ghgs_forestry:
+    "greenhouse_gas_ghgs_emissions_without_land_use_land_use_change_and_forestry_lulucf_in_kilotonne_co2_equivalent",
+  hfcs: "hydrofluorocarbons_hfcs_emissions_in_kilotonne_co2_equivalent",
+  ch4: "methane_ch4_emissions_without_land_use_land_use_change_and_forestry_lulucf_in_kilotonne_co2_equivalent",
+  nf3: "nitrogen_trifluoride_nf3_emissions_in_kilotonne_co2_equivalent",
+  n2o: "nitrous_oxide_n2o_emissions_without_land_use_land_use_change_and_forestry_lulucf_in_kilotonne_co2_equivalent",
+  pfcs: "perfluorocarbons_pfcs_emissions_in_kilotonne_co2_equivalent",
+  sf6: "sulphur_hexafluoride_sf6_emissions_in_kilotonne_co2_equivalent",
+  hfcs_pfcs:
+    "unspecified_mix_of_hydrofluorocarbons_hfcs_and_perfluorocarbons_pfcs_emissions_in_kilotonne_co2_equivalent",
+};
